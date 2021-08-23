@@ -72,15 +72,7 @@ ul li:hover ul{
 .menu2-2{
     padding-right: 25px;
 }
-/* Fotos */
-/* .fotos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: 700px;
-    padding-top: 15px;
-} */
+
 /* Secciones */
 .formularioC{
     display: flex;
@@ -104,22 +96,7 @@ ul li:hover ul{
 #inicio {
     list-style-position:initial;
 }
-/* h1 {
-    color: #615f5f;
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'ABeeZee', sans-serif;
-    } */
-/* h2{
-    color:#616161;
-    font-size: 1.5rem;
-    font-family: 'ABeeZee', sans-serif;
-} */
-/* h3{
-    color: #616161;
-    font-size: 1.3rem;
-    font-family: 'ABeeZee', sans-serif;
-} */
+
 .bio{
     text-align: center;
 }
@@ -168,9 +145,8 @@ tr td{
                         "menug menug menug"
                         "img1 img2 img3"
                         "img4 img5 img6"
+                        "img7 img8 img9"
                         "footer footer footer";
-    /* grid-template-rows: 70px 100px ;
-    grid-template-columns: 1fr 1fr 1fr; */
 }
 .contacto{
     display: grid;
@@ -188,6 +164,7 @@ tr td{
                         "prom prom prom"
                         "img1 img2 img3"
                         "img4 img5 img6"
+                        "img7 img8 img9"
                         "footer footer footer";
     /* grid-template-rows: 70px 100px ;
     grid-template-columns: 1fr 1fr 1fr; */
@@ -211,6 +188,15 @@ tr td{
     grid-area: img5;
 }
 .img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img6;
+}
+.img8{
+    grid-area: img6;
+}
+.img9{
     grid-area: img6;
 }
 footer{
