@@ -1,0 +1,367 @@
+/* html{
+font-size: 62.5%;
+} */
+* {
+    padding: 0; 
+    margin: 0;
+}
+/* body{
+    background-color: #f8f8f8;
+} */
+header{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: header;
+}
+.enlaces a {
+    margin-right: 20px;
+}
+.nav1{
+    display: flex;
+    flex-basis: 100%;
+}
+.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: 100%;
+}
+.menu1-2{
+    padding-right: 50px;
+    list-style: none;
+}
+
+#inicio{
+    display: flex;
+    justify-content: flex-start ;
+    padding-left: 50px;
+}
+.nav2{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 100%;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display: block;
+}
+ul li:hover ul{
+    display: block;
+    height: auto;
+    width: 300px;
+    background-color: #f8f8f8;
+    font-size: 1.6rem;
+    font-family: 'ABeeZee', sans-serif;
+}
+.menu2-1{
+    list-style: none;
+}
+.menu2-2{
+    padding-right: 25px;
+}
+/* Fotos */
+/* .fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 700px;
+    padding-top: 15px;
+} */
+/* Secciones */
+.formularioC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    
+}
+.promocionesf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+/* texto */
+#inicio {
+    list-style-position:initial;
+}
+/* h1 {
+    color: #615f5f;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    } */
+/* h2{
+    color:#616161;
+    font-size: 1.5rem;
+    font-family: 'ABeeZee', sans-serif;
+} */
+/* h3{
+    color: #616161;
+    font-size: 1.3rem;
+    font-family: 'ABeeZee', sans-serif;
+} */
+.bio{
+    text-align: center;
+}
+.texto3{
+    color: black;
+}
+#horariosNegrita{
+    color: #616161;
+}
+tr th{
+    color: #616161;
+}
+tr td{
+    color:#6d6d6d ;
+}
+.palabraNegrita {
+    font-weight: bold;
+}
+.hablame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telefono{
+    list-style-image: url("../imagenes/telefono_opt.png");
+}
+.email {
+    list-style-image: url("../imagenes/email.png");
+}
+.web{
+    list-style-image: url("../imagenes/web.png");
+}
+
+.textoMitad{
+    text-align: center;
+
+}
+.textoMedio{
+    margin: auto;
+    text-align: center;
+}
+/* Grid */
+.index{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "menug menug menug"
+                        "img1 img2 img3"
+                        "img4 img5 img6"
+                        "footer footer footer";
+    /* grid-template-rows: 70px 100px ;
+    grid-template-columns: 1fr 1fr 1fr; */
+}
+.contacto{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "menug menug menug"
+                        "contenido contenido contenido"
+                        "footer footer footer";
+    /* grid-template-rows: 70px 100px ;
+    grid-template-columns: 1fr 1fr 1fr; */
+}
+.compraOnline{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "menug menug menug"
+                        "prom prom prom"
+                        "img1 img2 img3"
+                        "img4 img5 img6"
+                        "footer footer footer";
+    /* grid-template-rows: 70px 100px ;
+    grid-template-columns: 1fr 1fr 1fr; */
+}
+.menug{
+    grid-area: menug;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+footer{
+    grid-area: footer;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.prom1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.contenido{
+    grid-area: contenido;
+}
+.prom{
+    grid-area: prom;
+    padding-bottom: 20px;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+/* .osc{
+    height: 214px;
+    width: 214px;
+    border: 7px solid #fdfdfd;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.osc:hover{
+    filter: brightness(80%);
+}  */
+
+/*  */
+@media screen and (max-width: 768px) {
+    .index{
+        grid-template-areas: "header"
+                            "menug"
+                            "img1"
+                            "img2"
+                            "img3"
+                            "img4"
+                            "img5"
+                            "img6"
+                            "footer";
+    }
+    .contacto{
+        grid-template-areas: "header"
+                            "menug"
+                            "contenido" 
+                            "contenido" 
+                            "contenido"
+                            "footer";
+    }
+    .compraOnline{
+        grid-template-areas: "header"
+                            "menug"
+                            "prom"
+                            "img1"
+                            "img2"
+                            "img3"
+                            "img4"
+                            "img5"
+                            "img6"
+                            "footer";
+    }
+}
+@media screen and (max-width: 320px) {
+    .index{
+        grid-template-areas: "header"
+                            "menug"
+                            "img1"
+                            "img2"
+                            "img3"
+                            "img4"
+                            "img5"
+                            "img6"
+                            "footer";
+    }
+    .contacto{
+        grid-template-areas: "header"
+                            "menug"
+                            "contenido" 
+                            "contenido" 
+                            "contenido"
+                            "footer";
+    }
+    .compraOnline{
+        grid-template-areas: "header"
+                            "menug"
+                            "prom"
+                            "img1"
+                            "img2"
+                            "img3"
+                            "img4"
+                            "img5"
+                            "img6"
+                            "footer";
+    }
+}
+/*  */
+.transf{
+    height: 214px;
+    width: 214px;
+    transition: all 2s;
+}
+.transf:hover{
+    height: 260px;
+    width: 260px;
+}
+.barraNav{
+    text-decoration: none;
+    color: #202020;
+    font-size: 1.6rem;
+    font-family: 'ABeeZee', sans-serif;
+}
+.fondoSearch{
+    background-color: white;
+    padding: 0%;
+}
+.paddingInicio{
+    padding-left: 50px;
+}
+.paddingNoso{
+    /* padding-right: 50px; */
+    width: 100px;
+    padding: 0px;
+}
+.ancho{
+    width: 570px;
+    
+}
+.canvas{
+    height: 500px;
+    width: 500px;
+    border: 7px solid #fdfdfd;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.headeroff{
+    width: 570px;
+}
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,138 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #f8f8f8; }
+
+ul li a {
+  text-decoration: none;
+  color: #202020;
+  font: "ABeeZee", sans-serif;
+  font-size: 1.6rem; }
+
+ul li {
+  color: #615f5f; }
+
+h1 {
+  color: #615f5f;
+  text-align: center;
+  font: "ABeeZee", sans-serif font-size 2rem; }
+
+h2 {
+  color: #615f5f;
+  font-size: 1.6rem; }
+
+h3 {
+  color: #616161;
+  font-size: 1.3rem;
+  font: "ABeeZee", sans-serif; }
+
+.texto, .footer-Contenido, .footer-Contenido-MediosDePago {
+  font-size: 1.6rem;
+  font: "ABeeZee", sans-serif;
+  color: #888888; }
+
+.texto2, .texto-borde {
+  font-size: 1.2rem;
+  font: "ABeeZee", sans-serif;
+  color: #202020; }
+
+.nav_texto {
+  color: black; }
+
+.body_imagen-borde {
+  height: 214px;
+  width: 214px;
+  border: 7px solid #fdfdfd;
+  box-sizing: border-box;
+  object-fit: cover; }
+
+.body_imagen-borde:hover {
+  filter: brightness(80%); }
+
+.bordes1, .tamanio-tabla {
+  padding-top: 12.5px;
+  margin: auto;
+  text-align: center;
+  width: 40rem; }
+
+.tamanio-tabla {
+  width: 300px;
+  margin-top: 20px; }
+
+.texto-borde {
+  padding-top: 10px; }
+
+.texto-fuerte {
+  color: #181818; }
+
+.texto-fuerte2 {
+  color: #131313; }
+
+.padding-formulario1 {
+  padding-top: 5px; }
+
+.padding-formulario2 {
+  padding-top: 10px; }
+
+.padding-formulario3 {
+  padding-top: 15px; }
+
+.padding-formulario4 {
+  padding-top: 20px; }
+
+.borde-prom {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  object-fit: cover; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center; }
+
+.footer-Contenido {
+  display: flex;
+  flex-direction: column;
+  padding-right: 80px; }
+
+.footer-Contenido-MediosDePago {
+  display: flex;
+  flex-direction: column; }
+
+.footer-Contenido2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5px; }
+
+.footer-Texto {
+  text-decoration: none;
+  color: #616161;
+  font-size: 1.2rem; }
+
+.footer-Titulo {
+  text-decoration: none;
+  color: #202020;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center; }
+
+.footer-Img {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  object-fit: cover; }
+
+.footer-MediosDePago {
+  width: 152px;
+  height: 48px;
+  box-sizing: border-box;
+  object-fit: cover;
+  display: flex; }
