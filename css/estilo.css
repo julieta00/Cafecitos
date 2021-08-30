@@ -269,7 +269,7 @@ footer{
                             "footer";
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width:320px) {
     .index{
         grid-template-areas: "header"
                             "menug"
@@ -279,6 +279,9 @@ footer{
                             "img4"
                             "img5"
                             "img6"
+                            "img7"
+                            "img8"
+                            "img9"
                             "footer";
     }
     .contacto{
@@ -301,7 +304,16 @@ footer{
                             "img6"
                             "footer";
     }
+    .footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    }
 }
+
 /*  */
 .transf{
     height: 214px;

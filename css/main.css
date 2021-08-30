@@ -136,3 +136,6 @@ h3 {
   box-sizing: border-box;
   object-fit: cover;
   display: flex; }
+.Menu-Inicio{
+  padding-left: 100px;
+}

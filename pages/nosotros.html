@@ -15,30 +15,26 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid header">
-            <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-start paddingInicio">
-                <a href="../index.html" class="barraNav ">Inicio</a>
+        <div class="container-fluid pt-4 pt-md-0">
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between">
+            <a href="../index.html" class="barraNav order-1">Inicio</a>
+    
+            <nav class="navbar navbar-light bg-light fondoSearch order-3 order-md-2">
+              <div class="container-fluid d-flex justify-content-center fondoSearch">
+                <form class="d-flex ">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn btn-outline-secondary" type="submit">Buscar</button>
+                </form>
+              </div>
+            </nav>
+    
+            <div class="enlaces order-2 order-md-3 d-flex flex-column flex-md-row">
+              <a href="contacto.html" class="barraNav">Contacto</a>
+              <a href="nosotros.html" class="barraNav">Nosotros</a>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-4">
-                <nav class="navbar navbar-light bg-light fondoSearch">
-                    <div class="container-fluid d-flex justify-content-center fondoSearch">
-                    <form class="d-flex ">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn btn-outline-secondary" type="submit">Buscar</button>
-                    </form>
-                    </div>
-                </nav>
-            </div>
-            <div class="col-sm-2 col-md-2 col-lg-2 d-flex justify-content-end">
-                <a href="contacto.html" class="barraNav">Contacto</a>
-            </div>
-            <div class="col-sm-2 col-md-2 col-lg-2 d-flex justify-content-end paddingNoso">
-                <a href="nosotros.html" class="barraNav">Nosotros</a>
-            </div>
-            </div>
+          </div>
         </div>
-    </header>
+      </header>
     <div class="menug">
         <img>
         <H1>Cafecitos</H1>
